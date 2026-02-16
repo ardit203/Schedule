@@ -66,26 +66,26 @@ target_subjects = {
 
 # Labs -- Place for labs, later
 target_labs = [
-    # {
-    #     "Day": "Понеделник",
-    #     "Day code": 0,
-    #     "Start period": 2,
-    #     "Duration (periods)": 2,
-    #     "Time": "10:00-11:45",
-    #     "Periods": [2, 3],
-    #     "Subject": "Интегрирани системи (лаб)",
-    #     "Classrooms": "Лаб 215",
-    # },
-    # {
-    #     "Day": "Вторник",
-    #     "Day code": 1,
-    #     "Start period": 11,
-    #     "Duration (periods)": 2,
-    #     "Time": "18:00-19:45",
-    #     "Periods": [11, 12],
-    #     "Subject": "Мобилни апликации (лаб)",
-    #     "Classrooms": "Лаб 2",
-    # }
+    {
+        "Day": "Понеделник",
+        "Day code": 0,
+        "Start period": 2,
+        "Duration (periods)": 2,
+        "Time": "10:00-11:45",
+        "Periods": [2, 3],
+        "Subject": "Интегрирани системи (лаб)",
+        "Classrooms": "Лаб 215",
+    },
+    {
+        "Day": "Вторник",
+        "Day code": 1,
+        "Start period": 11,
+        "Duration (periods)": 2,
+        "Time": "18:00-19:45",
+        "Periods": [11, 12],
+        "Subject": "Мобилни апликации (лаб)",
+        "Classrooms": "Лаб 2",
+    }
 ]
 
 if __name__ == '__main__':
