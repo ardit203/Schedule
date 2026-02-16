@@ -74,6 +74,7 @@ target_labs = [
         "Time": "10:00-11:45",
         "Periods": [2, 3],
         "Subject": "Интегрирани системи (лаб)",
+        "Classes": "3y-SEIS",
         "Classrooms": "Лаб 215",
     },
     {
@@ -83,6 +84,7 @@ target_labs = [
         "Duration (periods)": 2,
         "Time": "18:00-19:45",
         "Periods": [11, 12],
+        "Classes": "3y-SEIS",
         "Subject": "Мобилни апликации (лаб)",
         "Classrooms": "Лаб 2",
     }
@@ -94,7 +96,6 @@ if __name__ == '__main__':
     data = sorted([obj for obj in rows if contains_subject(obj['Subject'])],
                   key=lambda s: (s['Day code'], s['Start period']))
 
-    print(target_classes)
     data = sorted([obj for obj in data if contains_class(obj['Classes'])],
                   key=lambda s: (s['Day code'], s['Start period']))
 
@@ -111,9 +112,9 @@ if __name__ == '__main__':
     with open("schedule.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    PORT = 9999
-    Handler = http.server.SimpleHTTPRequestHandler
-
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
-        webbrowser.open(f"http://localhost:{PORT}/index.html")
-        httpd.serve_forever()
+    # PORT = 9999
+    # Handler = http.server.SimpleHTTPRequestHandler
+    #
+    # with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    #     webbrowser.open(f"http://localhost:{PORT}/index.html")
+    #     httpd.serve_forever()

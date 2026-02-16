@@ -95,8 +95,7 @@
         for (let item of items) {
             let innerDiv = document.createElement("div")
             let id = item['Day code'].toString() + item['Start period'].toString()
-            innerDiv.setAttribute("id", id)
-            innerDiv.addEventListener("click", () => showLessonOverlay(id));
+            innerDiv.addEventListener("click", () => showLessonOverlay(item));
             innerDiv.classList.add('sub-item')
             innerDiv.style.background = contains(item['Classes'], mainClasses) ? item['Color'] : "#999999"
 
@@ -174,11 +173,7 @@
             document.body.classList.remove("modal-open");
         }
 
-        function showOverlay(id) {
-            console.log(id)
-            let dayCode = parseInt(id.split("")[0])
-            let startPeriod = parseInt(id.split("")[1])
-            let item = data.find(d => d['Day code'] === dayCode && d['Periods'].includes(startPeriod))
+        function showOverlay(item) {
             if (item == null) {
                 return
             }

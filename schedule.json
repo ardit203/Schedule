@@ -333,6 +333,38 @@
       "Classrooms": "МФ 112",
       "Color": "#C667E5",
       "Short name": "IS (ав)"
+    },
+    {
+      "Day": "Понеделник",
+      "Day code": 0,
+      "Start period": 2,
+      "Duration (periods)": 2,
+      "Time": "10:00-11:45",
+      "Periods": [
+        2,
+        3
+      ],
+      "Subject": "Интегрирани системи (лаб)",
+      "Classes": "3y-SEIS",
+      "Classrooms": "Лаб 215",
+      "Color": "#C667E5",
+      "Short name": "IS (лаб)"
+    },
+    {
+      "Day": "Вторник",
+      "Day code": 1,
+      "Start period": 11,
+      "Duration (periods)": 2,
+      "Time": "18:00-19:45",
+      "Periods": [
+        11,
+        12
+      ],
+      "Classes": "3y-SEIS",
+      "Subject": "Мобилни апликации (лаб)",
+      "Classrooms": "Лаб 2",
+      "Color": "#539DCC",
+      "Short name": "MA (лаб)"
     }
   ]
 }
