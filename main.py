@@ -47,6 +47,13 @@ target_classes = [
     "4y-SEIS",
 ]
 
+# classes that will appear with their color in the schedule
+target_main_classes = [
+    "3y-SEIS",
+    "4y-SEIS",
+    # "4г-ПИТ",
+]
+
 # Subjects -- change to your choice
 target_subjects = {
     "Управување со ИКТ проекти": {"Color": "#B7B369", "Short name": "IKT"},  # IKT
@@ -97,6 +104,7 @@ if __name__ == '__main__':
 
     data = {
         "days": days_dict,
+        "main_classes": target_main_classes,
         "data": data
     }
 
