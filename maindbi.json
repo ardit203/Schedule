@@ -2784,39 +2784,39 @@
                 "_uial": 0,
                 "data_rows": [
                     {
-                        "id": "2026-02-09",
-                        "tt_num": "",
-                        "tt_day": null
-                    },
-                    {
-                        "id": "2026-02-10",
-                        "tt_num": "",
-                        "tt_day": null
-                    },
-                    {
-                        "id": "2026-02-11",
-                        "tt_num": "",
-                        "tt_day": null
-                    },
-                    {
-                        "id": "2026-02-12",
-                        "tt_num": "",
-                        "tt_day": null
-                    },
-                    {
-                        "id": "2026-02-13",
-                        "tt_num": "",
-                        "tt_day": null
-                    },
-                    {
-                        "id": "2026-02-14",
-                        "tt_num": "",
-                        "tt_day": null
-                    },
-                    {
-                        "id": "2026-02-15",
+                        "id": "2026-02-16",
                         "tt_num": "27",
-                        "tt_day": -1
+                        "tt_day": 0
+                    },
+                    {
+                        "id": "2026-02-17",
+                        "tt_num": "27",
+                        "tt_day": 1
+                    },
+                    {
+                        "id": "2026-02-18",
+                        "tt_num": "27",
+                        "tt_day": 2
+                    },
+                    {
+                        "id": "2026-02-19",
+                        "tt_num": "27",
+                        "tt_day": 3
+                    },
+                    {
+                        "id": "2026-02-20",
+                        "tt_num": "27",
+                        "tt_day": 4
+                    },
+                    {
+                        "id": "2026-02-21",
+                        "tt_num": "",
+                        "tt_day": null
+                    },
+                    {
+                        "id": "2026-02-22",
+                        "tt_num": "",
+                        "tt_day": null
                     }
                 ],
                 "data_columns": [
@@ -3051,23 +3051,23 @@
             }
         ],
         "changeEvents": {
-            "dbi:teachers": 5647509,
-            "dbi:subjects": 9702651,
-            "dbi:classrooms": 7683369,
-            "dbi:classes": 5422045,
-            "dbi:igroups": 5718767,
-            "dbi:groupsubjects": 5549692,
-            "dbi:old_igroups": 9226698,
-            "dbi:periods": 3835660,
-            "dbi:dayparts": 1490896,
-            "dbi:dates": 6257104,
-            "dbi:event_types": 4149211,
-            "dbi:events.2026-02": 2955597,
-            "dbi:halves": 2541641,
-            "dbi:officialtimetables": 7732266,
-            "timetables": 3920933,
-            "dbi:timetables": 6246316,
-            "dbi:students": 7261416
+            "dbi:teachers": 4714050,
+            "dbi:subjects": 9869528,
+            "dbi:classrooms": 9988842,
+            "dbi:classes": 6301713,
+            "dbi:igroups": 9030965,
+            "dbi:groupsubjects": 7711216,
+            "dbi:old_igroups": 1677168,
+            "dbi:periods": 7551124,
+            "dbi:dayparts": 2493993,
+            "dbi:dates": 4923217,
+            "dbi:event_types": 5098814,
+            "dbi:events.2026-02": 5584592,
+            "dbi:halves": 5792540,
+            "dbi:officialtimetables": 8720961,
+            "timetables": 3920956,
+            "dbi:timetables": 6246379,
+            "dbi:students": 8059302
         }
     }
 }

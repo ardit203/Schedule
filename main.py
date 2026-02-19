@@ -1,5 +1,7 @@
 import json
 import http.server, socketserver, webbrowser
+from typing import Dict, List, Any
+
 from handleJson import rows, days_dict
 
 
@@ -28,8 +30,27 @@ def add_color_and_short_name(target):
     return target
 
 
+def get_teachers(target):
+    teachers = set(
+        t.strip()
+        for obj in target
+        for t in obj['Teachers'].split(" / ")
+        if t.strip()
+    )
+
+    return sorted(teachers)
+
+
+def get_classrooms(target):
+    classrooms = set(
+        obj['Classrooms'] for obj in target
+    )
+
+    return sorted(classrooms)
+
+
 # Study Programs -- change to your choice
-target_classes = [
+target_classes = sorted([
     "2г-ССП",
 
     "3г-ПИТ",
@@ -45,7 +66,7 @@ target_classes = [
 
     "3y-SEIS",
     "4y-SEIS",
-]
+])
 
 # classes that will appear with their color in the schedule
 target_main_classes = [
@@ -95,17 +116,18 @@ if __name__ == '__main__':
 
     data = sorted([obj for obj in rows if contains_subject(obj['Subject'])],
                   key=lambda s: (s['Day code'], s['Start period']))
-
     data = sorted([obj for obj in data if contains_class(obj['Classes'])],
                   key=lambda s: (s['Day code'], s['Start period']))
-
     data.extend(target_labs)
-
     data = add_color_and_short_name(data)
 
     data = {
         "days": days_dict,
         "main_classes": target_main_classes,
+        "classes": target_classes,
+        "teachers": get_teachers(data),
+        "classrooms": get_classrooms(data),
+        "subjects": sorted(obj for obj in target_subjects),
         "data": data
     }
 
@@ -114,7 +136,7 @@ if __name__ == '__main__':
 
     # PORT = 9999
     # Handler = http.server.SimpleHTTPRequestHandler
-    #
+
     # with socketserver.TCPServer(("", PORT), Handler) as httpd:
     #     webbrowser.open(f"http://localhost:{PORT}/index.html")
     #     httpd.serve_forever()

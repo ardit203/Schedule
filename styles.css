@@ -31,7 +31,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     display: grid;
     grid-template-columns: 90px repeat(5, 19.2%);
-    grid-template-rows: repeat(14, 11%);
+    grid-template-rows: 50px repeat(13, 15%);
     /*gap: 8px;*/
 }
 
@@ -326,5 +326,84 @@ body {
 /* Optional: prevent background scroll when open */
 body.modal-open {
     overflow: hidden;
+}
+
+/*------------------Form inputs------------------*/
+/* ===== Form container ===== */
+#form{
+  max-width: 980px;
+  margin-bottom: 30px;
+
+  padding: 16px 18px;
+
+  display: grid;
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  gap: 12px;
+
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  background: #fff;
+  /*box-shadow: 0 10px 24px rgba(0,0,0,.08);*/
+}
+
+/* Each (label + select) wrapper */
+#form > div{
+  display: grid;
+  gap: 6px;
+}
+
+/* Labels */
+#form label{
+  font-size: 12px;
+  font-weight: 600;
+  color: #334155; /* slate-ish */
+  letter-spacing: .2px;
+}
+
+/* Select styling */
+#form select{
+  width: 100%;
+  padding: 10px 12px;
+
+  border: 1px solid rgba(0,0,0,.16);
+  border-radius: 10px;
+  background: #fff;
+
+  font-size: 14px;
+  color: #0f172a;
+
+  outline: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+  box-shadow: 0 1px 0 rgba(0,0,0,.03);
+}
+
+/* Hover */
+#form select:hover{
+  border-color: rgba(0,0,0,.28);
+}
+
+/* Focus (when clicked) */
+#form select:focus{
+  border-color: rgba(37,99,235,.9);
+  box-shadow: 0 0 0 4px rgba(37,99,235,.18);
+}
+
+/* Disabled option style (if you later make placeholder disabled) */
+#form select option:disabled{
+  color: #94a3b8;
+}
+
+/* Responsive: 2 columns */
+@media (max-width: 900px){
+  #form{
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+  }
+}
+
+/* Responsive: 1 column */
+@media (max-width: 520px){
+  #form{
+    grid-template-columns: 1fr;
+  }
 }
 

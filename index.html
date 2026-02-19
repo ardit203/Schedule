@@ -34,26 +34,56 @@
     let startDayCode = -1 //inclusive
     let endDayCode = 5 //exclusive
     let days = null
-    let mainClasses = null
     let data = null
+    let mainClasses = null
+    let filteredData = null
     let main = document.getElementById("main")
+    let subjects = null
+    let teachers = null
+    let classrooms = null
+    let classes = null
+    let filters = {
+        Subjects: 'all',
+        Teachers: 'all',
+        Classrooms: 'all',
+        Classes: 'all'
+    }
 
     fetchJson()
 
     async function fetchJson() {
         let response = await fetch('./schedule.json')
         let json = await response.json()
+
         days = json.days
         mainClasses = json.main_classes
         data = json.data
+        teachers = json.teachers
+        classrooms = json.classrooms
+        classes = json.classes
+        subjects = json.subjects
 
         console.log(days)
         console.log(mainClasses)
         console.log(data)
+        console.log(teachers)
+        console.log(classrooms)
+        console.log(classes)
+        console.log(subjects)
+        createSearchFields()
+        applyFilters()
+    }
+
+    function applyFilters() {
+        filteredData = filters.Subjects === 'all' ? data : data.filter(d => d.Subject.includes(filters.Subjects))
+        filteredData = filters.Teachers === 'all' ? filteredData : filteredData.filter(d => d.Teachers.includes(filters.Teachers))
+        filteredData = filters.Classrooms === 'all' ? filteredData : filteredData.filter(d => d.Classrooms === filters.Classrooms)
+        filteredData = filters.Classes === 'all' ? filteredData : filteredData.filter(d => d.Classes.includes(filters.Classes))
         build()
     }
 
     function build() {
+        main.innerHTML = ""
         //days
         createDiv('time-item corner') // blank corner
 
@@ -67,10 +97,11 @@
                     createDiv('time-item', times[i])
                     continue
                 }
-                let filter = data.filter(d => d['Day code'] === j && d['Periods'].includes(i))
+                let filter = filteredData.filter(d => d['Day code'] === j && d['Periods'].includes(i))
                 createNestedDiv(filter)
             }
         }
+
     }
 
     function createDiv(className = 'empty-item', text = "", color = "") {
@@ -125,6 +156,57 @@
         let filter = split.filter(s => mainClasses.includes(s))
         return filter.length > 0
     }
+
+    function createSearchFields() {
+        let div = document.createElement("div")
+        div.id = 'form'
+
+        div.appendChild(createSelect(subjects, "Subjects"))
+        div.appendChild(createSelect(teachers, "Teachers"))
+        div.appendChild(createSelect(classrooms, "Classrooms"))
+        div.appendChild(createSelect(classes, "Classes"))
+
+        document.body.prepend(div);
+    }
+
+    function createSelect(items, labelText) {
+        const wrapper = document.createElement("div");
+
+        const label = document.createElement("label");
+        label.textContent = labelText;
+
+        const select = document.createElement("select");
+        select.onchange = (e) => {
+            filters[e.target.id] = e.target.value
+            console.log(filters)
+            applyFilters()
+        };
+
+
+        select.id = labelText;
+        label.htmlFor = labelText;
+
+        const placeholder = document.createElement("option");
+        placeholder.value = "all";
+        placeholder.textContent = "View all";
+        placeholder.selected = true;
+        select.appendChild(placeholder);
+
+        const frag = document.createDocumentFragment();
+        for (const item of items) {
+            const opt = document.createElement("option");
+            opt.value = item;
+            opt.textContent = item;
+            frag.appendChild(opt);
+        }
+        select.appendChild(frag);
+
+        wrapper.appendChild(label);
+        wrapper.appendChild(select);
+
+        return wrapper;
+    }
+
 
     // ===== Overlay / Modal JS =====
     (function initOverlay() {

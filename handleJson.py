@@ -3,7 +3,7 @@ import json
 # ============
 # Load JSON
 # ============
-with open("data2.json", "r", encoding="utf-8") as f:
+with open("regulartt.json", "r", encoding="utf-8") as f:
     d2 = json.load(f)
 
 tables = d2["r"]["dbiAccessorRes"]["tables"]
