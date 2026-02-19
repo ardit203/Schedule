@@ -10,9 +10,10 @@
     <link href="./styles.css" rel="stylesheet">
 
 
+
 </head>
 <body>
-<div id="main" class="grid"></div>
+<div id="main"></div>
 <script>
     let times = [
         "8:00 - 8:45",
@@ -84,24 +85,44 @@
 
     function build() {
         main.innerHTML = ""
-        //days
-        createDiv('time-item corner') // blank corner
+
+        let table = document.createElement("table")
+        let tableHead = document.createElement("tr")
+        table.appendChild(tableHead)
+
+        let blank = document.createElement("th")
+        blank.classList.add("time")
+        tableHead.appendChild(blank)
+
 
         for (const day in days) {
-            createDiv('item header', day)
+            let th = document.createElement("th")
+            th.textContent = day
+            tableHead.appendChild(th)
         }
 
+
+        let tbody = document.createElement("tbody")
+        table.appendChild(tbody)
+
         for (let i = startPeriod; i < endPeriod; i++) {
+            let tr = document.createElement("tr")
+            tbody.appendChild(tr)
             for (let j = startDayCode; j < endDayCode; j++) {
+                let td = document.createElement("td")
+                tr.appendChild(td)
                 if (j === startDayCode) {
-                    createDiv('time-item', times[i])
+                    td.textContent = times[i]
+                    td.classList.add("time")
                     continue
                 }
                 let filter = filteredData.filter(d => d['Day code'] === j && d['Periods'].includes(i))
-                createNestedDiv(filter)
+                createNestedDiv(td, filter)
+                tr.appendChild(td)
             }
         }
 
+        main.appendChild(table)
     }
 
     function createDiv(className = 'empty-item', text = "", color = "") {
@@ -114,18 +135,16 @@
     }
 
 
-    function createNestedDiv(items) {
+    function createNestedDiv(td, items) {
         let level = items.length
         let div = createDiv('dummy-item')
         if (level === 0) {
-            div.classList.remove('dummy-item')
-            div.classList.add('empty-item')
+            div.remove()
             return
         }
 
         for (let item of items) {
             let innerDiv = document.createElement("div")
-            let id = item['Day code'].toString() + item['Start period'].toString()
             innerDiv.addEventListener("click", () => showLessonOverlay(item));
             innerDiv.classList.add('sub-item')
             innerDiv.style.background = contains(item['Classes'], mainClasses) ? item['Color'] : "#999999"
@@ -136,17 +155,17 @@
             roomDiv.textContent = item['Classrooms']
             innerDiv.appendChild(roomDiv)
 
-            let name = createFields("h5", item['Short name'], 'center', 'name')
+            let name = createFields("div", item['Short name'], 'center', 'name')
             innerDiv.appendChild(name)
 
             div.appendChild(innerDiv)
         }
+        td.appendChild(div)
     }
 
     function createFields(type, text, align, className = '') {
         let field = document.createElement(type)
         field.innerHTML = text
-        field.style.textAlign = align
         field.classList.add(className)
         return field
     }
