@@ -77,7 +77,7 @@
       "Classes": "3y-SEIS; 3г-ПИТ; 3г-СИИС; 3г-КН",
       "Classrooms": "Амфитеатар ФИНКИ (А1)",
       "Color": "#8DC075",
-      "Short name": "DevOps (п)"
+      "Short name": "КИИ (п)"
     },
     {
       "Day": "Понеделник",
@@ -94,7 +94,7 @@
       "Classes": "4y-SEIS",
       "Classrooms": "ТМФ 203",
       "Color": "#B7B369",
-      "Short name": "IKT (п)"
+      "Short name": "ИКТ (п)"
     },
     {
       "Day": "Понеделник",
@@ -111,7 +111,7 @@
       "Classes": "3г-КИ/Oст; 3г-СИИС; 3г-ИМБ; 3г-КН; 3y-SEIS",
       "Classrooms": "223",
       "Color": "#D79F62",
-      "Short name": "EMT (п)"
+      "Short name": "ЕМТ (п)"
     },
     {
       "Day": "Вторник",
@@ -128,7 +128,7 @@
       "Classes": "3г-ПИТ",
       "Classrooms": "Амф МФ",
       "Color": "#D79F62",
-      "Short name": "EMT (п)"
+      "Short name": "ЕМТ (п)"
     },
     {
       "Day": "Вторник",
@@ -145,7 +145,7 @@
       "Classes": "2г-ССП",
       "Classrooms": "Лаб 138",
       "Color": "#D79F62",
-      "Short name": "EMT (п)"
+      "Short name": "ЕМТ (п)"
     },
     {
       "Day": "Вторник",
@@ -162,7 +162,7 @@
       "Classes": "4y-SEIS",
       "Classrooms": "Б 2.1",
       "Color": "#B7B369",
-      "Short name": "IKT (ав)"
+      "Short name": "ИКТ (ав)"
     },
     {
       "Day": "Вторник",
@@ -179,7 +179,7 @@
       "Classes": "3г-СИИС",
       "Classrooms": "223",
       "Color": "#C667E5",
-      "Short name": "IS (п)"
+      "Short name": "ИС (п)"
     },
     {
       "Day": "Вторник",
@@ -196,7 +196,7 @@
       "Classes": "3г-КИ/Oст; 3г-СИИС; 3г-ИМБ; 3г-КН; 3y-SEIS",
       "Classrooms": "223",
       "Color": "#D79F62",
-      "Short name": "EMT (ав)"
+      "Short name": "ЕМТ (ав)"
     },
     {
       "Day": "Вторник",
@@ -213,7 +213,7 @@
       "Classes": "3г-ПИТ",
       "Classrooms": "225",
       "Color": "#D79F62",
-      "Short name": "EMT (ав)"
+      "Short name": "ЕМТ (ав)"
     },
     {
       "Day": "Среда",
@@ -230,7 +230,7 @@
       "Classes": "3г-ПИТ",
       "Classrooms": "Б 2.2",
       "Color": "#C667E5",
-      "Short name": "IS (п)"
+      "Short name": "ИС (п)"
     },
     {
       "Day": "Среда",
@@ -247,7 +247,7 @@
       "Classes": "4г-ПИТ",
       "Classrooms": "Амф МФ",
       "Color": "#B7B369",
-      "Short name": "IKT (п)"
+      "Short name": "ИКТ (п)"
     },
     {
       "Day": "Среда",
@@ -264,7 +264,7 @@
       "Classes": "3y-SEIS",
       "Classrooms": "МФ 112",
       "Color": "#C667E5",
-      "Short name": "IS (п)"
+      "Short name": "ИС (п)"
     },
     {
       "Day": "Среда",
@@ -281,7 +281,7 @@
       "Classes": "3г-СИИС",
       "Classrooms": "Амф МФ",
       "Color": "#C667E5",
-      "Short name": "IS (ав)"
+      "Short name": "ИС (ав)"
     },
     {
       "Day": "Среда",
@@ -298,7 +298,7 @@
       "Classes": "3г-ПИТ",
       "Classrooms": "ТМФ 315",
       "Color": "#C667E5",
-      "Short name": "IS (ав)"
+      "Short name": "ИС (ав)"
     },
     {
       "Day": "Среда",
@@ -315,7 +315,7 @@
       "Classes": "2г-ССП",
       "Classrooms": "ТМФ 203",
       "Color": "#D79F62",
-      "Short name": "EMT (ав)"
+      "Short name": "ЕМТ (ав)"
     },
     {
       "Day": "Среда",
@@ -332,7 +332,7 @@
       "Classes": "4г-СИИС",
       "Classrooms": "Амфитеатар ФИНКИ (А1)",
       "Color": "#B7B369",
-      "Short name": "IKT (п)"
+      "Short name": "ИКТ (п)"
     },
     {
       "Day": "Среда",
@@ -349,7 +349,7 @@
       "Classes": "4г-СИИС",
       "Classrooms": "224",
       "Color": "#B7B369",
-      "Short name": "IKT (ав)"
+      "Short name": "ИКТ (ав)"
     },
     {
       "Day": "Четврток",
@@ -366,7 +366,7 @@
       "Classes": "4г-ПИТ",
       "Classrooms": "Амф МФ",
       "Color": "#B7B369",
-      "Short name": "IKT (ав)"
+      "Short name": "ИКТ (ав)"
     },
     {
       "Day": "Петок",
@@ -383,7 +383,7 @@
       "Classes": "3y-SEIS",
       "Classrooms": "МФ 112",
       "Color": "#C667E5",
-      "Short name": "IS (ав)"
+      "Short name": "ИС (ав)"
     }
   ]
 }

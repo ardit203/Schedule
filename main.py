@@ -77,12 +77,12 @@ target_main_classes = [
 
 # Subjects -- change to your choice
 target_subjects = {
-    "Управување со ИКТ проекти": {"Color": "#B7B369", "Short name": "IKT"},  # IKT
-    "Интегрирани системи": {"Color": "#C667E5", "Short name": "IS"},  # IS
-    "Електронска и мобилна трговија": {"Color": "#D79F62", "Short name": "EMT"},  # EMT
-    "Континуирана интеграција и испорака": {"Color": "#8DC075", "Short name": "DevOps"},  # DevOps
-    "Виртуелна реалност": {"Color": "#4845CA", "Short name": "VR"},  # VR,
-    "Мобилни апликации": {"Color": "#539DCC", "Short name": "MA"},  # MA
+    "Управување со ИКТ проекти": {"Color": "#B7B369", "Short name": "ИКТ"},  # IKT
+    "Интегрирани системи": {"Color": "#C667E5", "Short name": "ИС"},  # IS
+    "Електронска и мобилна трговија": {"Color": "#D79F62", "Short name": "ЕМТ"},  # EMT
+    "Континуирана интеграција и испорака": {"Color": "#8DC075", "Short name": "КИИ"},  # DevOps
+    "Виртуелна реалност": {"Color": "#4845CA", "Short name": "ВР"},  # VR,
+    "Мобилни апликации": {"Color": "#539DCC", "Short name": "МА"},  # MA
 }
 
 # Labs -- Place for labs, later

@@ -34620,8 +34620,8 @@
                                             "bold": false,
                                             "italic": false,
                                             "underline": false,
-                                            "name_col": "",
-                                            "autohide": false
+                                            "autohide": false,
+                                            "name_col": ""
                                         },
                                         "classrooms": {
                                             "enabled": false,
@@ -35874,7 +35874,7 @@
                                             "bold": false,
                                             "italic": false,
                                             "underline": false,
-                                            "autohide": true,
+                                            "autohide": false,
                                             "name_col": ""
                                         },
                                         "classes": {
@@ -36368,8 +36368,8 @@
                                             "bold": false,
                                             "italic": false,
                                             "underline": false,
-                                            "name_col": "",
-                                            "autohide": false
+                                            "autohide": false,
+                                            "name_col": ""
                                         },
                                         "classrooms": {
                                             "enabled": false,
@@ -36390,7 +36390,7 @@
                                             "bold": false,
                                             "italic": false,
                                             "underline": false,
-                                            "autohide": true,
+                                            "autohide": false,
                                             "name_col": ""
                                         },
                                         "classes": {
