@@ -147,7 +147,7 @@
             let innerDiv = document.createElement("div")
             innerDiv.addEventListener("click", () => showLessonOverlay(item));
             innerDiv.classList.add('sub-item')
-            innerDiv.style.background = contains(item['Classes'], mainClasses) ? item['Color'] : "#999999"
+            innerDiv.style.background = item['Classes'] ? item['Color'] : "#999999"
 
 
             let roomDiv = document.createElement("div")

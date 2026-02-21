@@ -65,6 +65,7 @@ target_classes = sorted([
     "4г-СИИС",
 
     "3y-SEIS",
+    "1y-SEIS",
     "4y-SEIS",
 ])
 
@@ -83,6 +84,9 @@ target_subjects = {
     "Континуирана интеграција и испорака": {"Color": "#8DC075", "Short name": "КИИ"},  # DevOps
     "Виртуелна реалност": {"Color": "#4845CA", "Short name": "ВР"},  # VR,
     "Мобилни апликации": {"Color": "#539DCC", "Short name": "МА"},  # MA
+
+    # "Математика 2 / Дискретна математика": {"Color": "#999999", "Short name": "ДМ"},
+    # "Дизајн на интеракцијата човек-компјутер": {"Color": "#999999", "Short name": "ДНИЧК"},
 }
 
 # Labs -- Place for labs, later
