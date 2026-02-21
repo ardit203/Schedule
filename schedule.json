@@ -30,28 +30,29 @@
     "Давид Арсов",
     "Дарко Сасански",
     "Димитар Китановски",
+    "Димитар Милески",
     "Димитар Пешевски",
     "Димитар Трајанов",
-    "Елена Атанасоска",
     "Зорица Карапанчева",
     "Иван Чорбев",
+    "Катарина Тројачанец Динева",
     "Костадин Мишев",
+    "Миа Бошева",
     "Панче Рибарски",
     "Петре Ламески",
-    "Сашо Граматиков"
+    "Стефан Андонов",
+    "Сузана Лошковска"
   ],
   "classrooms": [
+    "112",
+    "117",
     "223",
-    "224",
-    "225",
     "Амф МФ",
     "Амфитеатар ФИНКИ (А1)",
     "Б 2.1",
-    "Б 2.2",
-    "Лаб 138",
-    "МФ 112",
-    "ТМФ 203",
-    "ТМФ 315"
+    "Б 3.2",
+    "Лаб 215",
+    "ТМФ 203"
   ],
   "subjects": [
     "Виртуелна реалност",
@@ -65,36 +66,36 @@
     {
       "Day": "Понеделник",
       "Day code": 0,
-      "Start period": 0,
+      "Start period": 3,
       "Duration (periods)": 2,
-      "Time": "08:00–09:45",
+      "Time": "11:00–12:45",
       "Periods": [
-        0,
-        1
+        3,
+        4
       ],
-      "Subject": "Континуирана интеграција и испорака (п)",
-      "Teachers": "Панче Рибарски",
-      "Classes": "3y-SEIS; 3г-ПИТ; 3г-СИИС; 3г-КН",
-      "Classrooms": "Амфитеатар ФИНКИ (А1)",
+      "Subject": "Континуирана интеграција и испорака (ав)",
+      "Teachers": "Димитар Милески",
+      "Classes": "3г-СИИС; 3г-КН; 3г-ПИТ",
+      "Classrooms": "117",
       "Color": "#8DC075",
-      "Short name": "КИИ (п)"
+      "Short name": "КИИ (ав)"
     },
     {
       "Day": "Понеделник",
       "Day code": 0,
-      "Start period": 4,
+      "Start period": 8,
       "Duration (periods)": 2,
-      "Time": "12:00–13:45",
+      "Time": "16:00–17:45",
       "Periods": [
-        4,
-        5
+        8,
+        9
       ],
-      "Subject": "Управување со ИКТ проекти (п)",
-      "Teachers": "Владимир Здравески",
-      "Classes": "4y-SEIS",
-      "Classrooms": "ТМФ 203",
-      "Color": "#B7B369",
-      "Short name": "ИКТ (п)"
+      "Subject": "Интегрирани системи (ав)",
+      "Teachers": "Зорица Карапанчева",
+      "Classes": "3y-SEIS",
+      "Classrooms": "112",
+      "Color": "#C667E5",
+      "Short name": "ИС (ав)"
     },
     {
       "Day": "Понеделник",
@@ -107,8 +108,8 @@
         9
       ],
       "Subject": "Електронска и мобилна трговија  (п)",
-      "Teachers": "Костадин Мишев",
-      "Classes": "3г-КИ/Oст; 3г-СИИС; 3г-ИМБ; 3г-КН; 3y-SEIS",
+      "Teachers": "Димитар Трајанов / Костадин Мишев",
+      "Classes": "3г-ПИТ",
       "Classrooms": "223",
       "Color": "#D79F62",
       "Short name": "ЕМТ (п)"
@@ -123,46 +124,12 @@
         0,
         1
       ],
-      "Subject": "Електронска и мобилна трговија  (п)",
-      "Teachers": "Димитар Трајанов / Костадин Мишев",
+      "Subject": "Континуирана интеграција и испорака (ав)",
+      "Teachers": "Стефан Андонов",
       "Classes": "3г-ПИТ",
-      "Classrooms": "Амф МФ",
-      "Color": "#D79F62",
-      "Short name": "ЕМТ (п)"
-    },
-    {
-      "Day": "Вторник",
-      "Day code": 1,
-      "Start period": 0,
-      "Duration (periods)": 2,
-      "Time": "08:00–09:45",
-      "Periods": [
-        0,
-        1
-      ],
-      "Subject": "Електронска и мобилна трговија  (п)",
-      "Teachers": "Сашо Граматиков",
-      "Classes": "2г-ССП",
-      "Classrooms": "Лаб 138",
-      "Color": "#D79F62",
-      "Short name": "ЕМТ (п)"
-    },
-    {
-      "Day": "Вторник",
-      "Day code": 1,
-      "Start period": 4,
-      "Duration (periods)": 2,
-      "Time": "12:00–13:45",
-      "Periods": [
-        4,
-        5
-      ],
-      "Subject": "Управување со ИКТ проекти (ав)",
-      "Teachers": "Дарко Сасански",
-      "Classes": "4y-SEIS",
-      "Classrooms": "Б 2.1",
-      "Color": "#B7B369",
-      "Short name": "ИКТ (ав)"
+      "Classrooms": "117",
+      "Color": "#8DC075",
+      "Short name": "КИИ (ав)"
     },
     {
       "Day": "Вторник",
@@ -176,61 +143,27 @@
       ],
       "Subject": "Интегрирани системи (п)",
       "Teachers": "Иван Чорбев / Петре Ламески",
-      "Classes": "3г-СИИС",
-      "Classrooms": "223",
+      "Classes": "3г-СИИС; 3г-ПИТ",
+      "Classrooms": "Амфитеатар ФИНКИ (А1)",
       "Color": "#C667E5",
       "Short name": "ИС (п)"
     },
     {
       "Day": "Вторник",
       "Day code": 1,
-      "Start period": 8,
+      "Start period": 10,
       "Duration (periods)": 2,
-      "Time": "16:00–17:45",
+      "Time": "18:00–19:45",
       "Periods": [
-        8,
-        9
+        10,
+        11
       ],
-      "Subject": "Електронска и мобилна трговија  (ав)",
-      "Teachers": "Ана Тодоровска",
-      "Classes": "3г-КИ/Oст; 3г-СИИС; 3г-ИМБ; 3г-КН; 3y-SEIS",
-      "Classrooms": "223",
-      "Color": "#D79F62",
-      "Short name": "ЕМТ (ав)"
-    },
-    {
-      "Day": "Вторник",
-      "Day code": 1,
-      "Start period": 8,
-      "Duration (periods)": 2,
-      "Time": "16:00–17:45",
-      "Periods": [
-        8,
-        9
-      ],
-      "Subject": "Електронска и мобилна трговија  (ав)",
-      "Teachers": "Димитар Пешевски",
-      "Classes": "3г-ПИТ",
-      "Classrooms": "225",
-      "Color": "#D79F62",
-      "Short name": "ЕМТ (ав)"
-    },
-    {
-      "Day": "Среда",
-      "Day code": 2,
-      "Start period": 0,
-      "Duration (periods)": 2,
-      "Time": "08:00–09:45",
-      "Periods": [
-        0,
-        1
-      ],
-      "Subject": "Интегрирани системи (п)",
-      "Teachers": "Александар Стојменски / Петре Ламески",
-      "Classes": "3г-ПИТ",
-      "Classrooms": "Б 2.2",
-      "Color": "#C667E5",
-      "Short name": "ИС (п)"
+      "Subject": "Континуирана интеграција и испорака (ав)",
+      "Teachers": "Димитар Милески",
+      "Classes": "3г-ИМБ; 3y-SEIS; 3г-ПИТ",
+      "Classrooms": "117",
+      "Color": "#8DC075",
+      "Short name": "КИИ (ав)"
     },
     {
       "Day": "Среда",
@@ -262,77 +195,9 @@
       "Subject": "Интегрирани системи (п)",
       "Teachers": "Александар Стојменски",
       "Classes": "3y-SEIS",
-      "Classrooms": "МФ 112",
+      "Classrooms": "112",
       "Color": "#C667E5",
       "Short name": "ИС (п)"
-    },
-    {
-      "Day": "Среда",
-      "Day code": 2,
-      "Start period": 2,
-      "Duration (periods)": 2,
-      "Time": "10:00–11:45",
-      "Periods": [
-        2,
-        3
-      ],
-      "Subject": "Интегрирани системи (ав)",
-      "Teachers": "Димитар Китановски",
-      "Classes": "3г-СИИС",
-      "Classrooms": "Амф МФ",
-      "Color": "#C667E5",
-      "Short name": "ИС (ав)"
-    },
-    {
-      "Day": "Среда",
-      "Day code": 2,
-      "Start period": 2,
-      "Duration (periods)": 2,
-      "Time": "10:00–11:45",
-      "Periods": [
-        2,
-        3
-      ],
-      "Subject": "Интегрирани системи (ав)",
-      "Teachers": "Давид Арсов",
-      "Classes": "3г-ПИТ",
-      "Classrooms": "ТМФ 315",
-      "Color": "#C667E5",
-      "Short name": "ИС (ав)"
-    },
-    {
-      "Day": "Среда",
-      "Day code": 2,
-      "Start period": 6,
-      "Duration (periods)": 2,
-      "Time": "14:00–15:45",
-      "Periods": [
-        6,
-        7
-      ],
-      "Subject": "Електронска и мобилна трговија  (ав)",
-      "Teachers": "Елена Атанасоска",
-      "Classes": "2г-ССП",
-      "Classrooms": "ТМФ 203",
-      "Color": "#D79F62",
-      "Short name": "ЕМТ (ав)"
-    },
-    {
-      "Day": "Среда",
-      "Day code": 2,
-      "Start period": 6,
-      "Duration (periods)": 2,
-      "Time": "14:00–15:45",
-      "Periods": [
-        6,
-        7
-      ],
-      "Subject": "Управување со ИКТ проекти (п)",
-      "Teachers": "Димитар Трајанов",
-      "Classes": "4г-СИИС",
-      "Classrooms": "Амфитеатар ФИНКИ (А1)",
-      "Color": "#B7B369",
-      "Short name": "ИКТ (п)"
     },
     {
       "Day": "Среда",
@@ -344,12 +209,97 @@
         8,
         9
       ],
-      "Subject": "Управување со ИКТ проекти (ав)",
+      "Subject": "Електронска и мобилна трговија  (ав)",
       "Teachers": "Димитар Пешевски",
-      "Classes": "4г-СИИС",
-      "Classrooms": "224",
-      "Color": "#B7B369",
-      "Short name": "ИКТ (ав)"
+      "Classes": "3г-ПИТ",
+      "Classrooms": "Амфитеатар ФИНКИ (А1)",
+      "Color": "#D79F62",
+      "Short name": "ЕМТ (ав)"
+    },
+    {
+      "Day": "Среда",
+      "Day code": 2,
+      "Start period": 9,
+      "Duration (periods)": 2,
+      "Time": "17:00–18:45",
+      "Periods": [
+        9,
+        10
+      ],
+      "Subject": "Мобилни апликации (п)",
+      "Teachers": "Петре Ламески",
+      "Classes": "4г-ПИТ",
+      "Classrooms": "112",
+      "Color": "#539DCC",
+      "Short name": "МА (п)"
+    },
+    {
+      "Day": "Среда",
+      "Day code": 2,
+      "Start period": 10,
+      "Duration (periods)": 2,
+      "Time": "18:00–19:45",
+      "Periods": [
+        10,
+        11
+      ],
+      "Subject": "Интегрирани системи (ав)",
+      "Teachers": "Димитар Китановски / Давид Арсов",
+      "Classes": "3г-СИИС; 3г-ПИТ",
+      "Classrooms": "Амфитеатар ФИНКИ (А1)",
+      "Color": "#C667E5",
+      "Short name": "ИС (ав)"
+    },
+    {
+      "Day": "Среда",
+      "Day code": 2,
+      "Start period": 11,
+      "Duration (periods)": 1,
+      "Time": "19:00–19:45",
+      "Periods": [
+        11
+      ],
+      "Subject": "Мобилни апликации (в)",
+      "Teachers": "Миа Бошева",
+      "Classes": "4г-ПИТ",
+      "Classrooms": "112",
+      "Color": "#539DCC",
+      "Short name": "МА (в)"
+    },
+    {
+      "Day": "Четврток",
+      "Day code": 3,
+      "Start period": 1,
+      "Duration (periods)": 3,
+      "Time": "09:00–11:45",
+      "Periods": [
+        1,
+        2,
+        3
+      ],
+      "Subject": "Виртуелна реалност (ав)",
+      "Teachers": "Катарина Тројачанец Динева",
+      "Classes": "4г-СИИС; 4г-ПИТ",
+      "Classrooms": "Лаб 215",
+      "Color": "#4845CA",
+      "Short name": "ВР (ав)"
+    },
+    {
+      "Day": "Четврток",
+      "Day code": 3,
+      "Start period": 2,
+      "Duration (periods)": 2,
+      "Time": "10:00–11:45",
+      "Periods": [
+        2,
+        3
+      ],
+      "Subject": "Електронска и мобилна трговија  (п)",
+      "Teachers": "Костадин Мишев",
+      "Classes": "3г-КИ/Oст; 3г-СИИС; 3г-ИМБ; 3г-КН; 3y-SEIS",
+      "Classrooms": "112",
+      "Color": "#D79F62",
+      "Short name": "ЕМТ (п)"
     },
     {
       "Day": "Четврток",
@@ -361,12 +311,114 @@
         4,
         5
       ],
+      "Subject": "Електронска и мобилна трговија  (ав)",
+      "Teachers": "Ана Тодоровска",
+      "Classes": "3y-SEIS; 3г-СИИС; 3г-ИМБ; 3г-КН",
+      "Classrooms": "Б 3.2",
+      "Color": "#D79F62",
+      "Short name": "ЕМТ (ав)"
+    },
+    {
+      "Day": "Четврток",
+      "Day code": 3,
+      "Start period": 6,
+      "Duration (periods)": 2,
+      "Time": "14:00–15:45",
+      "Periods": [
+        6,
+        7
+      ],
+      "Subject": "Управување со ИКТ проекти (п)",
+      "Teachers": "Димитар Трајанов",
+      "Classes": "4г-СИИС; 4г-ИМБ; 4г-КИ",
+      "Classrooms": "Амфитеатар ФИНКИ (А1)",
+      "Color": "#B7B369",
+      "Short name": "ИКТ (п)"
+    },
+    {
+      "Day": "Четврток",
+      "Day code": 3,
+      "Start period": 8,
+      "Duration (periods)": 2,
+      "Time": "16:00–17:45",
+      "Periods": [
+        8,
+        9
+      ],
+      "Subject": "Управување со ИКТ проекти (ав)",
+      "Teachers": "Димитар Пешевски",
+      "Classes": "4г-СИИС; 4г-ИМБ; 4г-КИ",
+      "Classrooms": "Амфитеатар ФИНКИ (А1)",
+      "Color": "#B7B369",
+      "Short name": "ИКТ (ав)"
+    },
+    {
+      "Day": "Четврток",
+      "Day code": 3,
+      "Start period": 10,
+      "Duration (periods)": 2,
+      "Time": "18:00–19:45",
+      "Periods": [
+        10,
+        11
+      ],
       "Subject": "Управување со ИКТ проекти (ав)",
       "Teachers": "Дарко Сасански",
       "Classes": "4г-ПИТ",
-      "Classrooms": "Амф МФ",
+      "Classrooms": "Амфитеатар ФИНКИ (А1)",
       "Color": "#B7B369",
       "Short name": "ИКТ (ав)"
+    },
+    {
+      "Day": "Петок",
+      "Day code": 4,
+      "Start period": 0,
+      "Duration (periods)": 2,
+      "Time": "08:00–09:45",
+      "Periods": [
+        0,
+        1
+      ],
+      "Subject": "Континуирана интеграција и испорака (п)",
+      "Teachers": "Панче Рибарски",
+      "Classes": "3г-ПИТ; 3г-СИИС; 3г-КН; 3y-SEIS; 3г-ИМБ",
+      "Classrooms": "Амфитеатар ФИНКИ (А1)",
+      "Color": "#8DC075",
+      "Short name": "КИИ (п)"
+    },
+    {
+      "Day": "Петок",
+      "Day code": 4,
+      "Start period": 2,
+      "Duration (periods)": 2,
+      "Time": "10:00–11:45",
+      "Periods": [
+        2,
+        3
+      ],
+      "Subject": "Управување со ИКТ проекти (п)",
+      "Teachers": "Владимир Здравески",
+      "Classes": "4y-SEIS",
+      "Classrooms": "Б 2.1",
+      "Color": "#B7B369",
+      "Short name": "ИКТ (п)"
+    },
+    {
+      "Day": "Петок",
+      "Day code": 4,
+      "Start period": 2,
+      "Duration (periods)": 2,
+      "Time": "10:00–11:45",
+      "Periods": [
+        2,
+        3
+      ],
+      "Subject": "Виртуелна реалност (п)",
+      "Teachers": "Сузана Лошковска",
+      "Classes": "4г-СИИС; 4г-ПИТ",
+      "Classrooms": "ТМФ 203",
+      "Color": "#4845CA",
+      "Short name": "ВР (п)"
     },
     {
       "Day": "Петок",
@@ -378,12 +430,29 @@
         4,
         5
       ],
-      "Subject": "Интегрирани системи (ав)",
-      "Teachers": "Зорица Карапанчева",
-      "Classes": "3y-SEIS",
-      "Classrooms": "МФ 112",
-      "Color": "#C667E5",
-      "Short name": "ИС (ав)"
+      "Subject": "Континуирана интеграција и испорака (ав)",
+      "Teachers": "Дарко Сасански",
+      "Classes": "3г-СИИС; 3г-ПИТ; 3y-SEIS; 3г-ИМБ; 3г-КН",
+      "Classrooms": "117",
+      "Color": "#8DC075",
+      "Short name": "КИИ (ав)"
+    },
+    {
+      "Day": "Петок",
+      "Day code": 4,
+      "Start period": 6,
+      "Duration (periods)": 2,
+      "Time": "14:00–15:45",
+      "Periods": [
+        6,
+        7
+      ],
+      "Subject": "Управување со ИКТ проекти (ав)",
+      "Teachers": "Дарко Сасански",
+      "Classes": "4y-SEIS",
+      "Classrooms": "112",
+      "Color": "#B7B369",
+      "Short name": "ИКТ (ав)"
     }
   ]
 }
